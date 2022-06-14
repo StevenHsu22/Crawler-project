@@ -8,7 +8,8 @@
 * [Google評論爬蟲](#googlecrawler)
 
 <h2 id="env">所需python套件</h2>
-* requests
+- requests
+- 
 
 <h2 id="pttcrawler">Ptt爬蟲</h2>
 
