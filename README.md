@@ -20,4 +20,4 @@
 
 <h2 id="googlecrawler">Google評論爬蟲</h2>
 
-* [googlecrawler](https://github.com/StevenHsu22/Crawler/tree/master/googlecrawler): 透過抓取。
+* [googlecrawler](https://github.com/StevenHsu22/Crawler/tree/master/googlecrawler): 透過 requests 抓取。
