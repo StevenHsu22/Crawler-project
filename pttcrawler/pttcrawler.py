@@ -23,6 +23,7 @@ def articles(page):
     soup = BeautifulSoup(res.text, "lxml")
 
     for article in soup.select(".r-ent"):
+        #排除特定文章
         if article.select(".title")[0].select("a")[0].get("href") != '/bbs/Food/M.1599055881.A.3C7.html':
             try:
                 yield main + article.select(".title")[0].select("a")[0].get("href")
