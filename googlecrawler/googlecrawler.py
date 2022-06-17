@@ -14,6 +14,7 @@ s = session()
 
 pretext = ')]}\''
 
+#透過自己查找的網址跑迴圈
 with open('饗賓google.json', 'r', encoding = "utf-8") as f:
     a = json.loads(f.read())
 
