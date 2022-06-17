@@ -13,6 +13,8 @@
 
 * bs4
 
+* fake_useragent
+
 <h2 id="pttcrawler">Ptt爬蟲</h2>
 
 * [pttcrawler](https://github.com/StevenHsu22/Crawler/tree/master/pttcrawler): 透過 ptt 抓取/下載資料的高效能爬蟲。
