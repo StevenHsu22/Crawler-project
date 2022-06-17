@@ -75,7 +75,7 @@ def search_article(corp = '王品', brand = '饗泰多'):
             
     return final_art
 
-#輸出檔案
+#輸出成json檔
 def output(filename, data):
     try:
         with open(filename +".json", 'wb+') as f:
