@@ -32,8 +32,12 @@
 * [googlecrawler](https://github.com/StevenHsu22/Crawler/tree/master/googlecrawler): 透過 requests 爬取 google 地圖的評論資料，且需在事前將須爬取店家的 requests 存成另一個檔案，此外，也特別使用 fake_useragent 避免被擋爬。
 
 補充：店家 requests 的查找方式
+
 1.選擇一個商家資訊網址
+
 2.打開開發者工具 > Network > XHR。
+
 3.重新整理，讓工具抓到新讀取的資料。
+
 4.找到重複的連結(listentitiesreviews….)。
 
