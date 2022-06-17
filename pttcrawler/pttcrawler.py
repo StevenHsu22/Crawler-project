@@ -1,7 +1,6 @@
 import json
 import requests
 import time
-import sys, urllib
 from bs4 import BeautifulSoup
 from bs4.element import NavigableString
 
