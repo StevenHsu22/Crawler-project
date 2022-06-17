@@ -1,6 +1,6 @@
 # Crawler 
 
-*14 June 2022. Update: 2022/06/14.*
+*17 June 2022. Update: 2022/06/17.*
 
 * [所需python套件](#env)
 * [Ptt爬蟲](#pttcrawler)
