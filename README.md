@@ -6,6 +6,7 @@
 * [Ptt爬蟲](#pttcrawler)
 * [Dcard爬蟲](#dcardcrawler)
 * [Google評論爬蟲](#googlecrawler)
+* [簡易API呈現](#sampleapi)
 
 <h2 id="env">所需python套件</h2>
 
@@ -40,4 +41,8 @@
 3.重新整理，讓工具抓到新讀取的資料。
 
 4.找到重複的連結(listentitiesreviews….)。
+
+<h2 id="googlecrawler">簡易api呈現</h2>
+
+* [sampleapi](https://github.com/StevenHsu22/Crawler-project/tree/master/Sample-API): 透過將爬取到的資料存至 phpmyadmin，再利用 SQL 語法與 HTTP Get 做簡易串接，最終在 swagger 中呈現。(目前由於 swagger 服務問題尚無法呈現在 swagger，只能在 postman 呈現)
 
