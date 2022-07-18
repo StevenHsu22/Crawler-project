@@ -9,7 +9,7 @@ def creat_database(dbname):
     mydb = mysql.connector.connect(
         host="database-1.cnk8rxvxgjew.us-west-2.rds.amazonaws.com",
         user="admin",
-        password="12345678",
+        password="**",
         charset="utf8mb4",
         port=3306
     )
@@ -24,7 +24,7 @@ def insertMessage(name, place, dbname):
     mydb = mysql.connector.connect(
         host="database-1.cnk8rxvxgjew.us-west-2.rds.amazonaws.com",
         user="admin",
-        password="12345678",
+        password="***",
         charset="utf8mb4",
         database=dbname,
         port=3306
